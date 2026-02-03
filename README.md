@@ -1,18 +1,31 @@
-# 🚀 Ihwal Maulana | Web Developer & Tech Enthusiast
+<!-- ─────────────────────────────── -->
+<!--  GitHub Profile README — Custom -->
+<!-- ─────────────────────────────── -->
 
-![GitHub Banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=ZetassCore&fontSize=60&fontAlignY=35&animation=fadeIn)
+<div align="center">
 
-## 👨‍💻 About Me
+# ⚡ ZetassCore
+**building things | breaking things | learning always**
 
-```javascript
-const aboutMe = {
-  name: "ZetasCore",
-  role: "Web Developer & Tech Enthusiast",
-  status: "Currently Learning",
-  focus: "Web Development",
-  location: "Indonesia",
-  interests: ["Web Development", "Linux", "Cyber Security"],
-  goal: "Build clean, useful & impactful projects",
-  learning: ["React", "Node.js", "MongoDB", "Linux Administration"],
-  motto: "Always Learning, Always Building"
-};
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=3000&pause=1000&color=00FFAA&center=true&vCenter=true&width=500&lines=Curious+by+default;Cyber+Security+Enthusiast;Linux+%7C+Web+%7C+Automation;Not+perfect,+just+consistent" />
+
+</div>
+
+---
+
+## 🧠 Tentang Saya
+Saya suka **ngoprek sistem**, memahami bagaimana sesuatu bekerja *di balik layar*, dan membangun solusi dari hal-hal kecil yang sering diabaikan.
+
+- 🔐 Fokus: **Cyber Security & Linux Lab**
+- 🧪 Sering eksperimen di VM, WSL, Termux
+- 🧩 Percaya bahwa *learning by breaking* itu valid
+- 🌱 Saat ini mendalami: **Web + Security Automation**
+
+---
+
+## 🛠️ Tech Stack (yang sering dipakai)
+```text
+OS        : Linux (Ubuntu, Kali)
+Languages : Bash, PHP, Python (basic)
+Tools     : Git, Docker (learning), Nmap, Burp, VirtualBox
+Web       : HTML, CSS, JS (fundamental)
