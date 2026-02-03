@@ -1,16 +1,16 @@
-## Hi there 👋
+## Hi 👋, I'm Ihwal Maulana
 
-<!--
-**waldevelop-afk/waldevelop-afk** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎓 Student | 💻 Web Developer | 🚀 Tech Enthusiast
 
-Here are some ideas to get you started:
+- 🔭 Currently learning: HTML, CSS, JavaScript
+- 🌱 Interested in: Cyber Security & Web Dev
+- 📫 Contact: ihwal@email.com
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+### 🛠️ Tech Stack
+HTML • CSS • JavaScript • GitHub • Linux
+
+---
+
+### 📊 GitHub Stats
