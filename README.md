@@ -1,31 +1,33 @@
-<!-- ─────────────────────────────── -->
-<!--  GitHub Profile README — Custom -->
-<!-- ─────────────────────────────── -->
+<!-- ████████████████████████████████ -->
+<!--   GHOST // DARK SECURITY README  -->
+<!-- ████████████████████████████████ -->
 
 <div align="center">
 
-# ⚡ ZetassCore
-**building things | breaking things | learning always**
+# 👻 G H O S T
+### _silent • unseen • persistent_
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=3000&pause=1000&color=00FFAA&center=true&vCenter=true&width=500&lines=Curious+by+default;Cyber+Security+Enthusiast;Linux+%7C+Web+%7C+Automation;Not+perfect,+just+consistent" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=13&duration=2800&pause=900&color=00FF99&center=true&vCenter=true&width=480&lines=Security+is+not+magic;It%E2%80%99s+attention+to+detail;Think+like+an+attacker;Move+like+a+ghost" />
 
 </div>
 
 ---
 
-## 🧠 Tentang Saya
-Saya suka **ngoprek sistem**, memahami bagaimana sesuatu bekerja *di balik layar*, dan membangun solusi dari hal-hal kecil yang sering diabaikan.
+## ☠️ Identity
+Saya tidak mengejar sensasi.  
+Saya mengejar **pemahaman**.
 
-- 🔐 Fokus: **Cyber Security & Linux Lab**
-- 🧪 Sering eksperimen di VM, WSL, Termux
-- 🧩 Percaya bahwa *learning by breaking* itu valid
-- 🌱 Saat ini mendalami: **Web + Security Automation**
+- 🕶️ Operasi senyap, hasil nyata
+- 🔐 Tertarik pada **system security & misconfiguration**
+- 🧠 Belajar dari failure, bukan tutorial kosong
+- 🌑 Lebih suka terminal daripada UI
 
 ---
 
-## 🛠️ Tech Stack (yang sering dipakai)
+## 🧬 Environment
 ```text
-OS        : Linux (Ubuntu, Kali)
-Languages : Bash, PHP, Python (basic)
-Tools     : Git, Docker (learning), Nmap, Burp, VirtualBox
-Web       : HTML, CSS, JS (fundamental)
+OS        : Linux (Kali | Ubuntu | WSL)
+Core      : Bash, Networking, Linux Internals
+Security  : Nmap, Burp Suite, Metasploit (lab)
+Infra     : VirtualBox, Docker (learning)
+Web       : HTML, CSS, JS (attack surface awareness)
