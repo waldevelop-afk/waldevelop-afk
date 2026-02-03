@@ -3,25 +3,875 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cyber Security Specialist</title>
+    <title>Ihwal Maulana | Web Developer</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <style>
         :root {
-            --matrix-green: #00ff00;
-            --cyber-blue: #0088ff;
-            --hacker-red: #ff0033;
-            --dark-bg: #0a0a0f;
-            --terminal-bg: #0d1117;
-            --text-glow: 0 0 10px var(--matrix-green);
+            --primary: #2563eb;
+            --secondary: #7c3aed;
+            --accent: #06b6d4;
+            --dark: #0f172a;
+            --light: #f8fafc;
+            --terminal: #1e293b;
+            --success: #10b981;
+            --warning: #f59e0b;
         }
         
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: 'Courier New', monospace;
+            font-family: 'Segoe UI', system-ui, sans-serif;
         }
+        
+        body {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: var(--light);
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+        
+        /* Animated Background */
+        .bg-grid {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                linear-gradient(rgba(37, 99, 235, 0.05) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(37, 99, 235, 0.05) 1px, transparent 1px);
+            background-size: 40px 40px;
+            z-index: -1;
+            animation: gridMove 20s linear infinite;
+        }
+        
+        @keyframes gridMove {
+            0% { transform: translateY(0) translateX(0); }
+            100% { transform: translateY(40px) translateX(40px); }
+        }
+        
+        /* Main Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        /* Header Profile */
+        .profile-header {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            padding: 2rem;
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            margin-bottom: 2rem;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .profile-header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+        }
+        
+        .avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 4px solid var(--primary);
+            padding: 3px;
+            background: var(--dark);
+            position: relative;
+        }
+        
+        .avatar::after {
+            content: '';
+            position: absolute;
+            top: -5px;
+            left: -5px;
+            right: -5px;
+            bottom: -5px;
+            border-radius: 50%;
+            border: 2px solid var(--accent);
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 0.5; transform: scale(1); }
+            50% { opacity: 1; transform: scale(1.05); }
+        }
+        
+        .profile-info h1 {
+            font-size: 2.5rem;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            margin-bottom: 0.5rem;
+        }
+        
+        .tagline {
+            font-size: 1.2rem;
+            color: var(--accent);
+            margin-bottom: 1rem;
+        }
+        
+        .github-info {
+            display: flex;
+            gap: 1rem;
+            color: #94a3b8;
+            font-size: 0.9rem;
+        }
+        
+        /* Status Cards */
+        .status-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        
+        .status-card {
+            background: rgba(30, 41, 59, 0.7);
+            border-radius: 15px;
+            padding: 1.5rem;
+            border-left: 4px solid var(--primary);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .status-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(37, 99, 235, 0.2);
+        }
+        
+        .status-title {
+            color: #94a3b8;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 0.5rem;
+        }
+        
+        .status-value {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--light);
+        }
+        
+        .status-learning {
+            border-left-color: var(--success);
+        }
+        
+        .status-focus {
+            border-left-color: var(--warning);
+        }
+        
+        /* About Me Section */
+        .about-section {
+            background: rgba(30, 41, 59, 0.7);
+            border-radius: 20px;
+            padding: 2rem;
+            margin: 2rem 0;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .section-title {
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            color: var(--light);
+        }
+        
+        .section-title i {
+            color: var(--accent);
+        }
+        
+        .about-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+        
+        .about-item {
+            background: rgba(15, 23, 42, 0.5);
+            padding: 1.5rem;
+            border-radius: 12px;
+            transition: all 0.3s;
+        }
+        
+        .about-item:hover {
+            background: rgba(37, 99, 235, 0.1);
+            border-left: 4px solid var(--primary);
+        }
+        
+        .about-label {
+            color: var(--accent);
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 0.5rem;
+        }
+        
+        .about-value {
+            font-size: 1.2rem;
+            font-weight: 500;
+        }
+        
+        /* Tech Stack */
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+        
+        .tech-item {
+            background: rgba(37, 99, 235, 0.1);
+            border: 1px solid rgba(37, 99, 235, 0.3);
+            padding: 0.8rem 1.5rem;
+            border-radius: 25px;
+            font-size: 0.9rem;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .tech-item:hover {
+            background: rgba(37, 99, 235, 0.2);
+            transform: scale(1.05);
+            box-shadow: 0 0 15px rgba(37, 99, 235, 0.3);
+        }
+        
+        /* Repositories */
+        .repos-section {
+            margin: 3rem 0;
+        }
+        
+        .repos-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+        }
+        
+        .customize-btn {
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            color: white;
+            border: none;
+            padding: 0.8rem 1.5rem;
+            border-radius: 10px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: transform 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .customize-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(37, 99, 235, 0.4);
+        }
+        
+        .repos-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+        
+        .repo-card {
+            background: rgba(30, 41, 59, 0.7);
+            border-radius: 15px;
+            padding: 1.5rem;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .repo-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 100%;
+            background: linear-gradient(180deg, var(--primary), var(--accent));
+        }
+        
+        .repo-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+        }
+        
+        .repo-name {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: var(--light);
+        }
+        
+        .repo-desc {
+            color: #94a3b8;
+            font-size: 0.95rem;
+            line-height: 1.5;
+            margin-bottom: 1rem;
+        }
+        
+        .repo-stats {
+            display: flex;
+            gap: 1rem;
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+        
+        .repo-stat {
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+        }
+        
+        /* Terminal Section */
+        .terminal-section {
+            background: var(--terminal);
+            border-radius: 15px;
+            padding: 0;
+            margin: 2rem 0;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .terminal-header {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 1rem 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .terminal-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+        }
+        
+        .dot-red { background: #ff5f56; }
+        .dot-yellow { background: #ffbd2e; }
+        .dot-green { background: #27c93f; }
+        
+        .terminal-body {
+            padding: 1.5rem;
+            font-family: 'Courier New', monospace;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+        
+        .terminal-line {
+            margin-bottom: 0.5rem;
+        }
+        
+        .terminal-prompt {
+            color: var(--success);
+        }
+        
+        .terminal-command {
+            color: var(--light);
+        }
+        
+        .terminal-output {
+            color: #94a3b8;
+            padding-left: 1rem;
+            border-left: 2px solid var(--accent);
+            margin: 0.5rem 0 1rem 0;
+        }
+        
+        /* Goals Section */
+        .goals-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        
+        .goal-card {
+            background: rgba(30, 41, 59, 0.7);
+            padding: 2rem;
+            border-radius: 15px;
+            text-align: center;
+            transition: all 0.3s;
+            border: 1px solid transparent;
+        }
+        
+        .goal-card:hover {
+            border-color: var(--primary);
+            box-shadow: 0 10px 30px rgba(37, 99, 235, 0.2);
+            transform: translateY(-5px);
+        }
+        
+        .goal-icon {
+            font-size: 2.5rem;
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+        
+        .goal-title {
+            font-size: 1.3rem;
+            margin-bottom: 0.5rem;
+            color: var(--light);
+        }
+        
+        /* Footer */
+        .profile-footer {
+            text-align: center;
+            padding: 3rem 0 2rem 0;
+            color: #64748b;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            margin-top: 3rem;
+        }
+        
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin: 1.5rem 0;
+        }
+        
+        .social-link {
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            background: rgba(30, 41, 59, 0.7);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--light);
+            font-size: 1.2rem;
+            transition: all 0.3s;
+            text-decoration: none;
+        }
+        
+        .social-link:hover {
+            background: var(--primary);
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(37, 99, 235, 0.4);
+        }
+        
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .fade-in {
+            animation: fadeInUp 0.6s ease-out forwards;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+            
+            .profile-header {
+                flex-direction: column;
+                text-align: center;
+                padding: 1.5rem;
+            }
+            
+            .github-info {
+                justify-content: center;
+            }
+            
+            .status-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .repos-header {
+                flex-direction: column;
+                gap: 1rem;
+                align-items: flex-start;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-grid"></div>
+    
+    <div class="container">
+        <!-- Profile Header -->
+        <header class="profile-header fade-in">
+            <div class="avatar">
+                <!-- Placeholder for profile image -->
+                <div style="width: 100%; height: 100%; border-radius: 50%; background: linear-gradient(135deg, var(--primary), var(--secondary)); display: flex; align-items: center; justify-content: center; font-size: 2rem; color: white;">
+                    IM
+                </div>
+            </div>
+            <div class="profile-info">
+                <h1>Ihwal Maulana</h1>
+                <div class="tagline" id="typed-text"></div>
+                <div class="github-info">
+                    <span><i class="fab fa-github"></i> waldevelop-afk</span>
+                    <span><i class="far fa-clock"></i> Joined 2 weeks ago</span>
+                    <span><i class="fas fa-map-marker-alt"></i> Indonesia</span>
+                </div>
+            </div>
+        </header>
+        
+        <!-- Status Cards -->
+        <section class="status-grid">
+            <div class="status-card fade-in" style="animation-delay: 0.1s">
+                <div class="status-title">Status</div>
+                <div class="status-value" style="color: var(--success)">LEARNING</div>
+                <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #94a3b8;">
+                    Currently mastering web technologies
+                </div>
+            </div>
+            
+            <div class="status-card fade-in" style="animation-delay: 0.2s">
+                <div class="status-title">Focus</div>
+                <div class="status-value" style="color: var(--warning)">WEB DEVELOPMENT</div>
+                <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #94a3b8;">
+                    Frontend & Backend Development
+                </div>
+            </div>
+            
+            <div class="status-card fade-in" style="animation-delay: 0.3s">
+                <div class="status-title">Location</div>
+                <div class="status-value" style="color: var(--accent)">INDONESIA</div>
+                <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #94a3b8;">
+                    Open to remote opportunities
+                </div>
+            </div>
+        </section>
+        
+        <!-- About Me -->
+        <section class="about-section fade-in">
+            <h2 class="section-title"><i class="fas fa-user"></i> About Me</h2>
+            <div class="about-grid">
+                <div class="about-item">
+                    <div class="about-label">Nama</div>
+                    <div class="about-value">Ihwal Maulana</div>
+                </div>
+                <div class="about-item">
+                    <div class="about-label">Role</div>
+                    <div class="about-value">Student / Web Development</div>
+                </div>
+                <div class="about-item">
+                    <div class="about-label">Minat</div>
+                    <div class="about-value">Web, Linux, Cyber Security</div>
+                </div>
+                <div class="about-item">
+                    <div class="about-label">Tujuan</div>
+                    <div class="about-value">Build clean, useful & impactful</div>
+                </div>
+            </div>
+            
+            <!-- Tech Stack -->
+            <h3 style="margin: 2rem 0 1rem 0; color: var(--light);">Tech Stack</h3>
+            <div class="tech-stack">
+                <div class="tech-item">
+                    <i class="fab fa-html5"></i> HTML5
+                </div>
+                <div class="tech-item">
+                    <i class="fab fa-css3-alt"></i> CSS3
+                </div>
+                <div class="tech-item">
+                    <i class="fab fa-js"></i> JavaScript
+                </div>
+                <div class="tech-item">
+                    <i class="fab fa-react"></i> React
+                </div>
+                <div class="tech-item">
+                    <i class="fab fa-node-js"></i> Node.js
+                </div>
+                <div class="tech-item">
+                    <i class="fab fa-git-alt"></i> Git
+                </div>
+                <div class="tech-item">
+                    <i class="fab fa-linux"></i> Linux
+                </div>
+                <div class="tech-item">
+                    <i class="fas fa-database"></i> MongoDB
+                </div>
+            </div>
+        </section>
+        
+        <!-- Repositories -->
+        <section class="repos-section fade-in">
+            <div class="repos-header">
+                <h2 class="section-title"><i class="fas fa-book"></i> Popular Repositories</h2>
+                <button class="customize-btn">
+                    <i class="fas fa-sliders-h"></i> Customize your pins
+                </button>
+            </div>
+            
+            <div class="repos-grid">
+                <!-- Sample Repository Cards -->
+                <div class="repo-card">
+                    <div class="repo-name">portfolio-v1</div>
+                    <div class="repo-desc">
+                        My personal portfolio website built with modern web technologies.
+                    </div>
+                    <div class="repo-stats">
+                        <span class="repo-stat"><i class="fas fa-code-branch"></i> main</span>
+                        <span class="repo-stat"><i class="far fa-star"></i> 12</span>
+                        <span class="repo-stat"><i class="fas fa-code"></i> HTML/CSS/JS</span>
+                    </div>
+                </div>
+                
+                <div class="repo-card">
+                    <div class="repo-name">web-toolkit</div>
+                    <div class="repo-desc">
+                        Collection of useful web development tools and snippets.
+                    </div>
+                    <div class="repo-stats">
+                        <span class="repo-stat"><i class="fas fa-code-branch"></i> dev</span>
+                        <span class="repo-stat"><i class="far fa-star"></i> 8</span>
+                        <span class="repo-stat"><i class="fas fa-code"></i> JavaScript</span>
+                    </div>
+                </div>
+                
+                <div class="repo-card">
+                    <div class="repo-name">linux-config</div>
+                    <div class="repo-desc">
+                        My Linux configuration files and setup scripts.
+                    </div>
+                    <div class="repo-stats">
+                        <span class="repo-stat"><i class="fas fa-code-branch"></i> main</span>
+                        <span class="repo-stat"><i class="far fa-star"></i> 5</span>
+                        <span class="repo-stat"><i class="fas fa-code"></i> Bash</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Terminal Section -->
+        <section class="terminal-section fade-in">
+            <div class="terminal-header">
+                <div class="terminal-dot dot-red"></div>
+                <div class="terminal-dot dot-yellow"></div>
+                <div class="terminal-dot dot-green"></div>
+                <span style="margin-left: 1rem; font-size: 0.9rem; color: #94a3b8;">terminal — bash</span>
+            </div>
+            <div class="terminal-body">
+                <div class="terminal-line">
+                    <span class="terminal-prompt">ihwal@github:~$</span>
+                    <span class="terminal-command"> whoami</span>
+                </div>
+                <div class="terminal-output">
+                    Ihwal Maulana - Web Developer & Tech Enthusiast
+                </div>
+                
+                <div class="terminal-line">
+                    <span class="terminal-prompt">ihwal@github:~$</span>
+                    <span class="terminal-command"> cat current_focus.txt</span>
+                </div>
+                <div class="terminal-output">
+                    Learning: React, Node.js, MongoDB<br>
+                    Building: Personal Projects<br>
+                    Next: Explore Cyber Security
+                </div>
+                
+                <div class="terminal-line">
+                    <span class="terminal-prompt">ihwal@github:~$</span>
+                    <span class="terminal-command"> find ./goals -name "2024"</span>
+                </div>
+                <div class="terminal-output">
+                    ✓ Master Full-Stack Development<br>
+                    ✓ Contribute to Open Source<br>
+                    ✓ Build Impactful Projects<br>
+                    ✓ Learn Linux Administration<br>
+                    ✓ Explore Cyber Security Basics
+                </div>
+            </div>
+        </section>
+        
+        <!-- Goals Section -->
+        <section class="fade-in">
+            <h2 class="section-title" style="margin-bottom: 2rem;"><i class="fas fa-bullseye"></i> Development Goals</h2>
+            <div class="goals-grid">
+                <div class="goal-card">
+                    <div class="goal-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="goal-title">Clean Code</h3>
+                    <p style="color: #94a3b8;">Write maintainable, readable, and efficient code following best practices</p>
+                </div>
+                
+                <div class="goal-card">
+                    <div class="goal-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3 class="goal-title">Useful Projects</h3>
+                    <p style="color: #94a3b8;">Build applications that solve real problems and provide value to users</p>
+                </div>
+                
+                <div class="goal-card">
+                    <div class="goal-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3 class="goal-title">Impactful Work</h3>
+                    <p style="color: #94a3b8;">Create solutions that make a positive difference in people's lives</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Footer -->
+        <footer class="profile-footer fade-in">
+            <div class="social-links">
+                <a href="https://github.com/waldevelop-afk" class="social-link" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+            <p style="margin-top: 1rem; font-size: 0.9rem;">
+                "Code is like humor. When you have to explain it, it's bad." — Cory House
+            </p>
+            <p style="margin-top: 0.5rem; font-size: 0.8rem; color: #64748b;">
+                © 2024 Ihwal Maulana | Always Learning, Always Building
+            </p>
+        </footer>
+    </div>
+    
+    <script>
+        // Typing Effect
+        const typed = new Typed('#typed-text', {
+            strings: [
+                'Web Developer | Tech Enthusiast | Open Source Learner',
+                'Building the Web, One Line at a Time',
+                'Passionate about Clean Code & Useful Projects',
+                'Exploring Linux & Cyber Security'
+            ],
+            typeSpeed: 50,
+            backSpeed: 30,
+            backDelay: 3000,
+            loop: true,
+            showCursor: true,
+            cursorChar: '|'
+        });
+        
+        // Animate elements on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('fade-in');
+                }
+            });
+        }, observerOptions);
+        
+        // Observe all sections
+        document.querySelectorAll('section').forEach(section => {
+            observer.observe(section);
+        });
+        
+        // Interactive terminal
+        const terminalLines = document.querySelectorAll('.terminal-line');
+        let currentLine = 0;
+        
+        function typeTerminalLine() {
+            if (currentLine < terminalLines.length) {
+                const line = terminalLines[currentLine];
+                const command = line.querySelector('.terminal-command');
+                const originalText = command.textContent;
+                command.textContent = '';
+                
+                let i = 0;
+                const typing = setInterval(() => {
+                    if (i < originalText.length) {
+                        command.textContent += originalText.charAt(i);
+                        i++;
+                    } else {
+                        clearInterval(typing);
+                        setTimeout(() => {
+                            const output = line.nextElementSibling;
+                            if (output && output.classList.contains('terminal-output')) {
+                                output.style.opacity = '0';
+                                output.style.display = 'block';
+                                let opacity = 0;
+                                const fadeIn = setInterval(() => {
+                                    opacity += 0.05;
+                                    output.style.opacity = opacity;
+                                    if (opacity >= 1) {
+                                        clearInterval(fadeIn);
+                                        currentLine++;
+                                        setTimeout(typeTerminalLine, 500);
+                                    }
+                                }, 30);
+                            } else {
+                                currentLine++;
+                                setTimeout(typeTerminalLine, 500);
+                            }
+                        }, 500);
+                    }
+                }, 50);
+            }
+        }
+        
+        // Start terminal animation after a delay
+        setTimeout(typeTerminalLine, 2000);
+        
+        // Interactive customize button
+        document.querySelector('.customize-btn').addEventListener('click', function() {
+            this.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Opening Customization...';
+            setTimeout(() => {
+                this.innerHTML = '<i class="fas fa-check"></i> Customization Panel Opened!';
+                setTimeout(() => {
+                    this.innerHTML = '<i class="fas fa-sliders-h"></i> Customize your pins';
+                }, 2000);
+            }, 1000);
+        });
+        
+        // Add hover effect to repo cards
+        document.querySelectorAll('.repo-card').forEach(card => {
+            card.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-8px) scale(1.02)';
+            });
+            
+            card.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(0) scale(1)';
+            });
+        });
+    </script>
+</body>
+</html>        }
         
         body {
             background: var(--dark-bg);
