@@ -53,18 +53,19 @@ Di sini saya mendokumentasikan proses belajar, eksperimen, dan pengembangan proj
 📚 School & Learning Projects
 ⚙️ Open Source Experiment
 📊 Dashboard
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=USERNAME_KAMU&show_icons=true&theme=tokyonight&hide_border=true" width="48%" /> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=USERNAME_KAMU&layout=compact&theme=tokyonight&hide_border=true" width="48%" /> </p>
-🔥 Activity
-<p align="center"> <img src="https://streak-stats.demolab.com?user=USERNAME_KAMU&theme=tokyonight&hide_border=true" /> </p>
-🌍 Experience Timeline
-2024 ─ Started Learning Web Development
-2025 ─ Exploring Linux & Cyber Security
-2026 ─ Building Real Projects & Portfolio
+## 📬 Contact
+<p align="center" id="contact">
+  <a href="https://github.com/waldevelop-afk">
+    <img src="https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github"/>
+  </a>
+  <a href="https://instagram.com/USERNAME_INSTAGRAM">
+    <img src="https://img.shields.io/badge/Instagram-111111?style=for-the-badge&logo=instagram"/>
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=google-chrome"/>
+  </a>
+</p>
 
-📌 Vision
-
-"GitHub bukan hanya tempat upload kode, tapi tempat membangun identitas digital."
-
-📬 Contact
-<p align="center" id="-contact"> <a href="https://github.com/USERNAME_KAMU"> <img src="https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github"/> </a> <a href="https://instagram.com/USERNAME"> <img src="https://img.shields.io/badge/Instagram-111111?style=for-the-badge&logo=instagram"/> </a> <a href="#"> <img src="https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=google-chrome"/> </a> </p>
-<p align="center"> <img src="https://komarev.com/ghpvc/?username=USERNAME_KAMU&label=VISITORS&color=blue&style=flat" /> </p> <p align="center"> <sub>© 2026 — Built like a website, powered by GitHub</sub> </p> ```
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=waldevelop-afk&label=VISITORS&color=blue&style=flat" />
+</p>
