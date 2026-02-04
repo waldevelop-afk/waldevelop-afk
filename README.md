@@ -4,7 +4,7 @@
 
 <div align="center">
 
-# 👻 G H O S T
+# 👻 Z E T A S S C O R E
 ### _silent • unseen • persistent_
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=13&duration=2800&pause=900&color=00FF99&center=true&vCenter=true&width=480&lines=Security+is+not+magic;It%E2%80%99s+attention+to+detail;Think+like+an+attacker;Move+like+a+ghost" />
