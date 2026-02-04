@@ -1,222 +1,207 @@
-🚀 AWESOME GITHUB PROFILE README
+💻 CYBER SECURITY ENTHUSIAST | ETHICAL HACKER
 <div align="center">
-https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Welcome%2520to%2520My%2520Profile&fontSize=60&fontAlignY=35&animation=fadeIn&desc=Full-Stack%2520Developer%2520%257C%2520Tech%2520Enthusiast&descAlignY=55
+https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=SECURITY+RESEARCHER&fontSize=50&fontAlignY=35&animation=fadeIn&desc=Ethical+Hacker+%257C+Penetration+Tester&descAlignY=55
 
-https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=3000&pause=1000&color=00FF00&center=true&vCenter=true&width=800&lines=Hi+%25F0%259F%2591%258B+I'm+Your+Name;Full-Stack+Developer+%257C+Open+Source+Contributor;Passionate+about+Tech+%2526+Innovation;Always+Learning+%2526+Building+Cool+Stuff
+https://readme-typing-svg.herokuapp.com?font=Hack&size=24&duration=4000&pause=1000&color=00FF00&center=true&vCenter=true&width=800&lines=Welcome+To+My+Security+Realm;Exploring+Vulnerabilities+Ethically;Securing+Digital+Frontiers+Daily;Red+Team+%257C+Blue+Team+%257C+Purple+Team
 
 </div>
+🔐 ABOUT ME
+python
+class SecurityResearcher:
+    def __init__(self):
+        self.name = "[YOUR NAME]"
+        self.role = "Cyber Security Specialist"
+        self.specialties = [
+            "Penetration Testing",
+            "Network Security", 
+            "Malware Analysis",
+            "Digital Forensics",
+            "Cryptography"
+        ]
+        self.certifications = ["OSCP", "CEH", "Security+"]
+        self.motto = "Stay Curious, Stay Secure"
+    
+    def hack(self, target):
+        if target == "authorized":
+            return "Ethical penetration in progress..."
+        else:
+            return "Access denied - Authorization required!"
 📊 GITHUB STATS
 <div align="center">
-https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=00ff00&text_color=ffffff&icon_color=00ff00&include_all_commits=true
+https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=00ff00&text_color=ffffff&icon_color=00ff00&include_all_commits=true
 
-https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=00ff00&text_color=ffffff&icon_color=00ff00
+https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=00ff00&text_color=ffffff&icon_color=00ff00
 
-https://github-readme-streak-stats.herokuapp.com?user=YOUR_USERNAME&theme=radical&hide_border=true&background=0d1117&stroke=00ff00&ring=00ff00&fire=00ff00&currStreakLabel=00ff00
-
-https://github-profile-trophy.vercel.app/?username=YOUR_USERNAME&theme=radical&no-frame=true&row=2&column=4
+https://github-readme-streak-stats.herokuapp.com?user=YOUR_USERNAME&theme=dark&hide_border=true&background=0d1117&stroke=00ff00&ring=00ff00&fire=00ff00&currStreakLabel=00ff00
 
 </div>
-🔥 TECH STACK & TOOLS
-🖥️ Frontend
-https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
-https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white
-https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
+🔧 SECURITY TOOLS & TECH STACK
+🔍 Reconnaissance
+https://img.shields.io/badge/Nmap-007ACC?style=for-the-badge&logo=nmap&logoColor=white
+https://img.shields.io/badge/Burp_Suite-FF6B35?style=for-the-badge&logo=burpsuite&logoColor=white
+https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white
 
-⚙️ Backend
-https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white
+⚔️ Exploitation
+https://img.shields.io/badge/Metasploit-258FFA?style=for-the-badge&logo=metasploit&logoColor=white
+https://img.shields.io/badge/SQLmap-000000?style=for-the-badge&logo=sqlmap&logoColor=white
+https://img.shields.io/badge/John_the_Ripper-FF6C37?style=for-the-badge
+
+📝 Programming
 https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
-https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white
-https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white
-https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white
+https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white
+https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white
 
-🗄️ Databases
-https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white
-https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white
-https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white
-https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white
+🛡️ Defense
+https://img.shields.io/badge/Snort-FF6600?style=for-the-badge
+https://img.shields.io/badge/Suricata-00A8E1?style=for-the-badge
+https://img.shields.io/badge/PF_Sense-212121?style=for-the-badge
 
-🛠️ DevOps & Tools
-https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white
-https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white
-https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white
-https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white
-https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black
+🎯 CTF & PLATFORMS
+<div align="center">
+https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=white
+https://img.shields.io/badge/HackTheBox-9FEF00?style=for-the-badge&logo=hackthebox&logoColor=black
+https://img.shields.io/badge/PentesterLab-FF6B6B?style=for-the-badge
+https://img.shields.io/badge/OverTheWire-00FF00?style=for-the-badge
 
-📱 Mobile
-https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white
-https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-
+</div>
 📈 ACTIVITY GRAPH
 <div align="center">
+https://activity-graph.herokuapp.com/graph?username=YOUR_USERNAME&theme=react-dark&bg_color=0d1117&hide_border=true&area=true&area_color=00ff00&line=00ff00&point=ffffff&width=800
 
-
-
-
-
-
-
-
-https://activity-graph.herokuapp.com/graph?username=YOUR_USERNAME&theme=react-dark&bg_color=0d1117&hide_border=true&area=true&area_color=00ff00&line=00ff00&point=ffffff&width=800&height=300
-
+<!-- Snake Animation -->
 https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg
 
 </div>
-💼 PROJECT SHOWCASE
+🏆 CERTIFICATIONS
 <div align="center">
-Project	Description	Tech Stack	Status
-Awesome Project	Full-stack web application	React, Node.js, MongoDB	🔥 Active
-Mobile App	Cross-platform mobile app	Flutter, Firebase	📱 Live
-API Service	Microservices architecture	FastAPI, Docker, Redis	⚡ Fast
-CLI Tool	Developer productivity tool	Python, Click	🛠️ Utility
+Certification	Status	Badge
+OSCP	✅ Certified	https://img.shields.io/badge/OSCP-Certified-red?style=flat-square
+CEH	✅ Certified	https://img.shields.io/badge/CEH-Master-blue?style=flat-square
+Security+	✅ Certified	https://img.shields.io/badge/Security+-Certified-green?style=flat-square
+eJPT	✅ Certified	https://img.shields.io/badge/eJPT-Certified-yellow?style=flat-square
 </div>
-🎯 MY GITHUB JOURNEY
-javascript
-const developer = {
-  name: "Your Name",
-  role: "Full-Stack Developer",
-  location: "🌍 Remote",
-  status: "👨‍💻 Currently coding",
-  passion: ["Web Development", "Open Source", "DevOps"],
-  currentlyLearning: ["Kubernetes", "Rust", "Machine Learning"],
-  lookingFor: "Collaboration on interesting projects",
-  funFact: "I ❤️ coffee and code",
-  quote: "First, solve the problem. Then, write the code."
-};
-🏆 ACHIEVEMENTS
-<div align="center">
-https://leetcard.jacoblin.cool/YOUR_USERNAME?theme=dark&font=Roboto
-https://img.shields.io/badge/Hacktoberfest-2024-00b4d8?style=for-the-badge&logo=hacktoberfest&logoColor=white
-https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white
-
-</div>
-📝 LATEST BLOG POSTS
-<!-- BLOG-POST-LIST:START -->
-How to Build a Scalable Microservices Architecture
-
-Mastering Docker for Development
-
-The Future of Web Development in 2024
-
-<!-- BLOG-POST-LIST:END -->
-🎮 DEVELOPER QUICK FACTS
-<div align="center">
+📁 SECURITY PROJECTS
+🔐 Active Projects
+Project	Description	Tools
+Network Scanner Pro	Advanced network reconnaissance tool	Python, Scapy, Nmap
+Malware Analyzer	Static & dynamic malware analysis	Python, YARA, Cuckoo
+Password Cracker	Custom password cracking toolkit	Python, Hashcat, John
+📝 Write-ups
+Platform	Profile	Rank
+TryHackMe	@username	Top 1%
+HackTheBox	@username	Pro Hacker
+CTFTime	@username	Top 100 Team
+🖥️ TERMINAL SIMULATION
 bash
-# Terminal Simulation
+# Terminal Session
 $ whoami
-> Your Name - Full-Stack Developer
+security_researcher
 
 $ pwd
-> /home/developer/projects
+/home/security/lab
 
-$ ls -la skills/
-> frontend/ backend/ devops/ databases/ tools/
+$ ls -la
+drwxr-xr-x   tools/          # Security Tools
+drwxr-xr-x   writeups/       # CTF Write-ups
+drwxr-xr-x   scripts/        # Custom Scripts
+drwxr-xr-x   research/       # Security Research
 
-$ ./motivation.sh
-> "Code is like humor. When you have to explain it, it's bad." - Cory House
+$ cat current_status.txt
+Status: 🟢 Online
+Activity: Penetration Testing
+Current Lab: Active Directory
+Next Goal: OSCP Certification
 
-$ git status
-> On branch: main
-> Working tree clean
-> Latest commit: "Added awesome feature"
-</div>
-🌐 CONNECT WITH ME
+$ sudo nmap -sV -sC target.com
+Starting Nmap 7.92...
+PORT     STATE SERVICE    VERSION
+22/tcp   open  ssh        OpenSSH 8.2p1
+80/tcp   open  http       Apache 2.4.41
+443/tcp  open  ssl/https  Apache 2.4.41
+📚 LEARNING PATH
+
+
+
+
+
+
+
+🔗 CONNECT WITH ME
 <div align="center">
 https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
 https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
+https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=white
+
+https://img.shields.io/badge/HackTheBox-9FEF00?style=for-the-badge&logo=hackthebox&logoColor=black
 https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white
-https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=google-chrome&logoColor=white
-https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white
-https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white
-https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white
+https://img.shields.io/badge/Blog-FF5722?style=for-the-badge&logo=blogger&logoColor=white
 
 </div>
 📊 METRICS
 <div align="center">
 https://metrics.lecoq.io/YOUR_USERNAME?template=classic&base.header=0&base.activity=0&base.community=0&base.repositories=0&base.metadata=0&achievements=1&achievements.threshold=C&achievements.secrets=true&achievements.display=detailed&achievements.limit=0&config.timezone=Asia%252FJakarta
 
-https://komarev.com/ghpvc/?username=YOUR_USERNAME&color=blue&style=flat-square&label=PROFILE+VIEWS
+https://komarev.com/ghpvc/?username=YOUR_USERNAME&color=00ff00&style=flat-square&label=PROFILE+VISITORS
 https://img.shields.io/github/followers/YOUR_USERNAME?style=social
 https://img.shields.io/github/stars/YOUR_USERNAME?style=social
 
 </div>
+⚠️ DISCLAIMER
 <div align="center">
-⭐ Star my repositories if you find them useful!
-javascript
-if (you.likedThisProfile) {
-    you.followMe(); // Follow for more awesome content
-    you.starRepos(); // Star my repositories
-    console.log("Thanks for visiting! 🚀");
-}
-Made with ❤️ and JavaScript
+⚠️ ETHICAL HACKING DISCLAIMER
+
+All security research and penetration testing is conducted:
+
+✅ In authorized environments only
+
+✅ With proper written permission
+
+✅ Following responsible disclosure
+
+✅ For educational purposes
+
+"With great power comes great responsibility"
+
+</div>
+<div align="center">
+🔐 Security is a process, not a product
+bash
+# Final Command
+$ echo "Stay Secure! 🔒"
+Stay Secure! 🔒
+Made with ❤️ for the security community
 
 https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer
 
 </div>
 🚀 QUICK SETUP GUIDE
-Customization Steps:
-Replace Placeholders:
-
+Replace These Placeholders:
 YOUR_USERNAME → Your GitHub username
 
 YOUR_PROFILE → Your social media profiles
 
-you@example.com → Your email
+[YOUR NAME] → Your real name
 
-Add Real Projects:
+Update certification badges
 
-Replace placeholder project links with your actual repositories
+Add real project links
 
-Update tech stack badges to match your skills
-
-Enable Features:
-
-For blog posts: Use RSS feed with GitHub Actions
-
-For snake animation: Add workflow in .github/workflows/
-
-For metrics: Enable in your profile settings
-
-Personalize Content:
-
-Update the developer object in "My GitHub Journey"
-
-Add your own quotes and fun facts
-
-Customize tech stack badges
-
-Advanced Features to Add:
-GitHub Actions for auto-updates:
+Add These Workflows:
+Create .github/workflows/snake.yml:
 
 yaml
-# .github/workflows/update-readme.yml
-# Auto-update blog posts, metrics, etc.
-Dynamic content with API:
+name: Generate Snake Animation
 
-Spotify currently playing
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
 
-Wakatime coding stats
-
-Recent tweets
-
-Interactive elements:
-
-GitHub README chess board
-
-Random developer jokes
-
-Coding challenge stats
-
-Useful Services:
-Badges: shields.io
-
-Stats: github-readme-stats
-
-Typing SVG: readme-typing-svg
-
-Trophies: github-profile-trophy
-
-Metrics: metrics
-
-Activity Graph: activity-graph
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: platane/snk@master
+        with:
+          github_user_name: YOUR_USERNAME
+          svg_out_path: dist/github-contribution-grid-snake.svg
