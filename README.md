@@ -53,6 +53,7 @@ Di sini saya mendokumentasikan proses belajar, eksperimen, dan pengembangan proj
 🔐 Cyber Security Practice<br>
 📚 School & Learning Projects<br>
 ⚙️ Open Source Experiment
+</p>
 ## 📬 Contact
 <p align="center" id="contact">
   <a href="https://github.com/waldevelop-afk">
