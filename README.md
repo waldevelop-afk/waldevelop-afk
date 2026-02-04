@@ -47,12 +47,13 @@ Di sini saya mendokumentasikan proses belajar, eksperimen, dan pengembangan proj
 ## 🚀 Projects
 <p align="center"><b>Struktur project dibuat seperti menu website</b></p>
 
-```text
-🌐 Portfolio Website
-🔐 Cyber Security Practice
-📚 School & Learning Projects
+## 🚀 Projects
+<p align="center">
+🌐 Portfolio Website<br>
+🔐 Cyber Security Practice<br>
+📚 School & Learning Projects<br>
 ⚙️ Open Source Experiment
-📊 Dashboard
+</p>
 ## 📬 Contact
 <p align="center" id="contact">
   <a href="https://github.com/waldevelop-afk">
