@@ -1,20 +1,18 @@
-<!-- ================================= -->
-<!--   ZETASSCORE | CYBER OPERATIONS   -->
-<!-- ================================= -->
+**<!-- ================================================= -->
+<!--        ZETASSCORE | CYBER SECURITY PROFILE        -->
+<!-- ================================================= -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&height=260&section=header&text=ZetassCore&fontSize=46&fontAlignY=40&color=0d1117&fontColor=00ffcc" />
-</p>
-
-<h2 align="center">🧠 Cyber Security Enthusiast</h2>
-
-<p align="center">
-  <b>Hacker Mindset • Red Team • Blue Team</b>
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=300&section=header&text=ZetassCore&fontSize=50&fontAlignY=40&color=0d1117&fontColor=00ffcc&animation=fadeIn" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&pause=1000&center=true&vCenter=true&width=700&color=00FFCC&lines=Think+like+an+attacker;Defend+like+a+professional;Secure+what+matters" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&pause=800&center=true&vCenter=true&width=900&color=00FFCC&lines=Initializing+Cyber+Environment...;Loading+Hacker+Mindset...;Red+Team+Module+Loaded;Blue+Team+Module+Loaded;System+Status:+ONLINE" />
 </p>
+
+<h3 align="center">
+🧠 Hacker Mindset &nbsp;|&nbsp; 🔴 Red Team &nbsp;|&nbsp; 🔵 Blue Team
+</h3>
 
 <p align="center">
   <a href="#-red-team">
@@ -23,21 +21,20 @@
   <a href="#-blue-team">
     <img src="https://img.shields.io/badge/BLUE%20TEAM-003366?style=for-the-badge&logo=shield&logoColor=white"/>
   </a>
-  <a href="#-stats">
-    <img src="https://img.shields.io/badge/STATS-0d1117?style=for-the-badge&logo=github&logoColor=00ffcc"/>
+  <a href="#-system-stats">
+    <img src="https://img.shields.io/badge/SYSTEM%20STATS-0d1117?style=for-the-badge&logo=github&logoColor=00ffcc"/>
   </a>
 </p>
 
 ---
 
-## 🧠 Hacker Mindset
-Saya adalah pelajar yang mempelajari **keamanan siber secara etis** dengan pendekatan:
-berpikir seperti penyerang untuk memahami risiko, lalu membangun pertahanan yang kuat.
-
-**Prinsip utama:**
-- Learn by doing (ethical only)
-- No theory without practice
-- Security is a continuous process
+## 🧠 SYSTEM PROFILE
+```txt
+User        : ZetassCore
+Role        : Cyber Security Student
+Mode        : Ethical Learning
+Focus       : Web Security & System Defense
+Status      : Active
 
 ---
 
@@ -120,3 +117,4 @@ berpikir seperti penyerang untuk memahami risiko, lalu membangun pertahanan yang
 <p align="center">
   <i>"Attack to understand. Defend to protect."</i>
 </p>
+**
