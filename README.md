@@ -3,10 +3,10 @@
 <!-- ============================= -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=260&section=header&text=My%20Digital%20Landing%20Page&fontSize=48&fontAlignY=40" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=260&section=header&text=zZetassCore&fontSize=48&fontAlignY=40" />
 </p>
 
-<h2 align="center">👋 Hi, I'm a Tech Explorer</h2>
+<h2 align="center">👋 Hi, I'm a ZetassCore</h2>
 <p align="center">
   <b>Student • Web Developer • Cyber Security Enthusiast</b>
 </p>
@@ -66,7 +66,41 @@ Di sini saya mendokumentasikan proses belajar, eksperimen, dan pengembangan proj
     <img src="https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=google-chrome"/>
   </a>
 </p>
+graph LR
+    A[Fundamentals] --> B[Networking]
+    B --> C[Linux Basics]
+    C --> D[Web Security]
+    D --> E[Penetration Testing]
+    E --> F[Red Teaming]
+    F --> G[Advanced Exploitation]
+    
+    style A fill:#00ff00
+    style G fill:#ff0000
+    # Terminal Session
+$ whoami
+security_researcher
 
+$ pwd
+/home/security/lab
+
+$ ls -la
+drwxr-xr-x   tools/          # Security Tools
+drwxr-xr-x   writeups/       # CTF Write-ups
+drwxr-xr-x   scripts/        # Custom Scripts
+drwxr-xr-x   research/       # Security Research
+
+$ cat current_status.txt
+Status: 🟢 Online
+Activity: Penetration Testing
+Current Lab: Active Directory
+Next Goal: OSCP Certification
+
+$ sudo nmap -sV -sC target.com
+Starting Nmap 7.92...
+PORT     STATE SERVICE    VERSION
+22/tcp   open  ssh        OpenSSH 8.2p1
+80/tcp   open  http       Apache 2.4.41
+443/tcp  open  ssl/https  Apache 2.4.41
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=waldevelop-afk&label=VISITORS&color=blue&style=flat" />
 </p>
