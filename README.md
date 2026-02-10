@@ -1,6 +1,6 @@
-<h1 align="center">Waldevelop</h1>
+<h1 align="center">Zetasscore</h1>
 <p align="center">
-  Student • Web Developer • Cyber Security Enthusiast
+  Mahasiswa Politeknik
 </p>
 
 <p align="center">
