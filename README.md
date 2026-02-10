@@ -7,7 +7,7 @@
   <a href="https://github.com/waldevelop-afk">
     <img src="https://img.shields.io/badge/GitHub-222222?style=flat&logo=github"/>
   </a>
-  <a href="https://instagram.com/ihwalmaulana09">
+  <a href="https://instagram.com/ihwalmaulana08">
     <img src="https://img.shields.io/badge/Instagram-222222?style=flat&logo=instagram"/>
   </a>
   <a href="zerotech.web.id">
